@@ -2,10 +2,21 @@
   "name": "ez-locations",
   "version": "0.0.1",
   "description": "Simple utility that checks physical location & updates your osx network location to match",
-  "main": "index.js",
+  "private": true,
+  "main": "app.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "node ./bin/www"
   },
   "author": "Andrew J. Hart",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  }
 }
