@@ -1,0 +1,11 @@
+{
+  "name": "ez-locations",
+  "version": "0.0.1",
+  "description": "Simple utility that checks physical location & updates your osx network location to match",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Andrew J. Hart",
+  "license": "MIT"
+}
